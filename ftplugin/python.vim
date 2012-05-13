@@ -16,7 +16,7 @@ let g:pymode_lint_config = "$HOME/.pylintrc"
 
 
 let g:pymode_run = 1                                            " Load run code plugin
-let g:pymode_folding = 0                                        " Enable python folding
+let g:pymode_folding = 1                                        " Enable python folding
 let g:pymode_run_key = '<leader>r'                              " Key for run python code
 let g:pymode_lint = 1                                           " Load pylint code plugin
 let g:pymode_lint_write = 1                                     " Check code every save
